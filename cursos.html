@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+		<title>Cursos | Maureen Cooper English Center</title>
+	    <meta charset="UTF-8"/>
+		<meta name="description" content="Your Future Is Speaking English. Cursos de inglés para escolares, unversitarios y adultos."/>
+		<meta name="keywords" content="cursos de ingles, curso de ingles,  gramatica inglesa, learn english, aprender idiomas, aprendizaje idiomas, learn language, material educativo, recursos aprendizaje, material para profesores, efl, toefl, esl, first certificate, cambridge, oxford, phrasal verbs, idioms, quotes, e-books, en español, oraciones, verbos irregulares, adverbios, adjetivos, preposiciones, pronombres, listening, lecturas, quiz, teachers, glosarios, fonetica, reading, writing, eoi, multimedia, englishcenter, la mansion del ingles, diccionario ingles español, english, center">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/> 
+		<link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <style>
+			    html, body {
+			       font-family: Bitter, Arial, Verdana;
+				}
+			
+			    hr {
+			        border: 1px solid #272f95; 
+			    }
+			
+			    .navbar {
+				    border-radius: 0; 
+				    font-size: 1.5em; 
+			    }
+			
+			    .navbar-header {
+			        padding: 20px 0px 20px 0px; 
+			    }
+			
+			    button {
+		            color: black !important;
+		        }
+			
+			    .bg-button-navbar {
+			        background-color: #272f95 !important;
+				    box-shadow: 1px 1px 5px black;
+			    }
+			
+		        button > .icon-bar {
+		            background-color: black;
+		        }
+			
+		        .icon-bar {
+			        color: white; 
+			        border: 2px solid white;
+		        }
+			
+			    .navbar-nav {
+			        padding: 40px 0px 40px 0px; 
+			    }
+			
+			    .navbar-nav > li {
+			       text-align: center; 
+			    }
+			
+			    .navbar-nav > li > a {
+			       color: black; 
+			       -webkit-transition: color 0.2s ease-out 0s;
+			       transition: color 0.2s ease-out 0s;
+			    }
+			
+			    .navbar-nav > li > a:hover {
+			        background-color: white;
+			        color: #ff2c3f;
+			    }
+			
+			    .bg-maincontent {
+			        padding: 0px 0px 20px;
+			    }
+			
+			    .bg-courses {
+			        margin: 20px 0px; 
+			        padding: 0px 20px; 
+			        font-size: 1.25em; 
+			    }
+			
+			    .bg-courses-paragraphs p {
+			        margin: 10px auto; 
+			    }
+				
+				.bg-title {
+			        background-color: #272f95;
+			        color: white;
+			        border: 1px solid #272f95;
+				    margin: 40px 20px;
+			        box-shadow: 2px 2px 10px black;
+			    }
+			
+			    .panel-group {
+			        padding: 20px 0px; 
+			    }
+			
+			    .panel-primary {
+			        border-color: #272f95;
+			    }
+			
+			    .panel-primary > .panel-heading {
+			        background-color: #272f95;
+			    }    
+			
+			    .bg-panelcollapsible-link {
+			        color: white; 
+			    }
+			
+			    .bg-panelcollapsible-link:hover {
+			        color: white;  
+			    }
+			
+			    .bg-panelcollapsible-link:visited {
+			        color: white;  
+			    }
+			
+			    .bg-footer {
+			        background-color: #272f95;
+			        color: white;
+			        padding: 40px;
+			        font-size: 1.125em;
+			    }
+			
+			    .bg-footer > hr {
+			        border: 1px solid white;
+			    }
+			
+			    .bg-upiconfixed {
+			        position: fixed;
+			        bottom: 5px; 
+			    }
+			
+			    .bg-upicon {   
+			        position: fixed;
+			        right: 10px;
+			        bottom: 10px;
+			        display: none; 
+		        }
+
+                .upicon-display {
+			        box-shadow: 1px 1px 5px black; 
+			    }			
+		</style>
+	</head>
+
+	<body>
+		<header>
+			<nav class="navbar">
+				<div class="container-fluid">
+				    <div class="navbar-header">
+					    <button type="button" class="navbar-toggle bg-button-navbar" data-toggle="collapse" data-target="#myNavbar">
+						    <span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+                        <a class="navbar-brand text-uppercase" href="index.html"><img src="images/logo.jpg" class="img-responsive" alt="Maureen Cooper English Center" /></a>
+					</div>
+					<div class="collapse navbar-collapse" id="myNavbar">
+					    <ul class="nav navbar-nav navbar-right">
+						    <li><a href="quienessomos.html">Quiénes Somos</a></li>
+							<li><a href="cursos.html"><b>Cursos</b></a></li>
+							<li><a href="ubicacion.html">Ubicación</a></li>
+							<li><a href="contacto.html">Contacto</a></li>
+						</ul>
+					</div>
+				</div>
+		    </nav>
+		</header>
+			
+		<div class="container bg-maincontent">
+			<div class="text-center">
+			    <div class="bg-title" style="margin-bottom:30px">
+			        <h1>Cursos</h1>
+                </div>
+				
+				<div class="bg-courses">
+				    <div class="text-justify">
+					    <div class="bg-courses-paragraphs">
+						    <p>English Center ofrece diversos tipos de cursos de inglés para varias edades, además de programas para reforzar el idioma, y la preparación de exámenes que se requieren en el extranjero.</p>
+						   
+						    <p>Haga click en algunas de las opciones para ver más detalles:</p> 
+							   
+							<div class="panel-group">
+                                <div class="panel panel-primary">
+                                    <div class="panel-heading">
+                                        <h2 class="panel-title">
+                                           <a data-toggle="collapse" href="#clasesescolares">Clases para escolares</a>
+                                        </h2>
+                                    </div>
+                                    <div id="clasesescolares" class="panel-collapse collapse">
+                                        <div class="panel-body">
+										    <p><b>Para alumnos de Enseñanza Básica (desde los 7 años) y Enseñanza Media</b>.</p>
+										    <p>Para estos alumnos, se enseña el idioma mediante una metodología entretenida, activa, y participativa; con conversaciones y dramatizaciones, juegos educativos, y canciones acordes para sus edades.</p>
+										</div>
+                                    </div>
+                                </div>
+								  
+								<div class="panel panel-primary">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">
+										    <a data-toggle="collapse" href="#clasesuniversitarios">Clases para universitarios</a>
+                                        </h3>
+                                    </div>
+                                    <div id="clasesuniversitarios" class="panel-collapse collapse">
+                                        <div class="panel-body">
+										   <p>Para universitarios, se ofrecen clases de inglés para todo nivel de conocimiento.</p>
+										   <p>Estas clases pueden ser:</p>
+										   <ul>
+										      <li>Individuales en nuestra sede</li>
+											  <li>Grupales a domicilio (Sector Oriente Alto), de mínimo 4 alumnos y máximo 6 por grupo, previa evaluación en nuestra sede, y profesora especializada para el grupo.</li>
+										   </ul>
+										</div>
+                                    </div>
+                                  </div>
+								  
+								<div class="panel panel-primary">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">
+										    <a data-toggle="collapse" href="#clasesadultos">Clases para adultos</a>
+                                        </h3>
+                                    </div>
+                                    <div id="clasesadultos" class="panel-collapse collapse">
+                                        <div class="panel-body">
+										    <p>Para adultos, ofrecemos clases individuales de inglés, las cuales se imparten normalmente en las mañanas, en nuestra sede.</p>
+										</div>
+                                    </div>
+                                </div>
+								  
+								<div class="panel panel-primary">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">
+										    <a data-toggle="collapse" href="#preparacionexamenes">Preparación para exámenes requeridos en el extranjero</a>
+                                        </h3>
+                                    </div>
+                                    <div id="preparacionexamenes" class="panel-collapse collapse">
+                                        <div class="panel-body">
+										    <p>¿Deseas perfeccionarte en tu carrera o trabajar en el extranjero? ¿Necesitas certificados en el idioma inglés? English Center ofrece preparación para los exámenes requeridos en estos casos:</p>
+										   
+										    <ul>
+										        <li>TOEFL  (Test of English as a Foreign Language)</li>
+											    <li>CAE (Certificate in Advanced English)</li>
+											    <li>IELST (International English Language Testing System)</li>
+											    <li>y otros específicos requeridos por los interesados</li>
+										    </ul>
+											
+										    <p>Las clases pueden ser:</p>
+											
+											<ul>
+											   <li>Individuales en nuestra sede</li>
+											   <li>Grupales a domicilio (Sector Oriente Alto), con un mínimo de 4 alumnos por grupo del mismo nivel</li>		
+											</ul>
+											
+											<p>En ambos casos previa evaluación en nuestra sede (Av. Padre Hurtado Central 580).</p> 
+										</div>
+                                    </div>
+                                </div>
+								  
+								<div class="panel panel-primary">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">
+										    <a data-toggle="collapse" href="#clasesempresas">Clases para empresas</a>
+                                        </h3>
+                                    </div>
+                                    <div id="clasesempresas" class="panel-collapse collapse">
+                                        <div class="panel-body">
+										    <p>Para empresas, se ofrecen:</p> 
+											
+											<ul>
+											    <li>Clases individuales para ejecutivos</li>
+												<li>Clases grupales para el personal, por niveles, con un mínimo de 4 personas por grupo, previa evaluación en la empresa</li>
+											</ul>
+											
+											<p>Las clases se realizan en el lugar de trabajo, y en los horarios a convenir.</p>
+										</div>
+                                    </div>
+                                </div>
+								  
+								<div class="panel panel-primary">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">
+										    <a data-toggle="collapse" href="#reforzamientoidioma">Reforzamiento del idioma</a>
+                                        </h3>
+                                    </div>
+                                    <div id="reforzamientoidioma" class="panel-collapse collapse">
+                                        <div class="panel-body">
+										    <p>Se ofrecen clases a escolares, universitarios y adultos de carácter individual, 
+										    e independiente del nivel de conocimiento que se tenga.</p>
+
+                                            <p>Las clases pueden ser:</p>
+
+                                            <ul>
+											    <li>Individuales en nuestra sede</li>
+												<li>Grupales a domicilio (Sector Oriente Alto), con un mínimo de 4 alumnos por grupo</li>
+                                            </ul>											
+										</div>
+                                    </div>
+                                </div>
+								  
+								<div class="panel panel-primary">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">
+										    <a data-toggle="collapse" href="#mantencion">Mantención del idioma</a>
+                                        </h3>
+                                    </div>
+                                    <div id="mantencion" class="panel-collapse collapse">
+                                        <div class="panel-body">
+										    <p>Se ofrecen clases para adultos (nivel avanzado), y para universitarios (niveles medio y avanzado).</p>		
+
+                                            <p>Las clases pueden ser:</p>
+
+                                            <ul>
+											    <li>Individuales en nuestra sede</li>
+												<li>Grupales a domicilio (Sector Oriente Alto), con un mínimo de 4 alumnos por grupo</li>
+                                            </ul>												
+										</div>
+                                    </div>
+                                </div>
+								
+								<div class="panel panel-primary">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">
+										    <a data-toggle="collapse" href="#conversacion">Conversación del idioma</a>
+                                        </h3>
+                                    </div>
+                                    <div id="conversacion" class="panel-collapse collapse">
+                                        <div class="panel-body">
+										    <p>Se ofrece para alumnos adultos, universitarios, y escolares de Educación Media; que tengan un buen dominio del idioma.</p>
+											
+											<p>Estos cursos se imparten:</p>
+											
+											<ul>
+											   <li>En forma individual en nuestra sede</li>
+											   <li>Grupales a domicilio, con un mínimo de 4 alumnos y máximo 6 por grupo, previa evaluación en nuestra sede</li>
+											</ul>
+										</div>
+                                    </div>
+                                </div>
+                            </div>
+							   
+						   <p>Al tener dudas sobre alguno de nuestros cursos o programas, o requerir alguna otra ayuda en el inglés, comuníquese mediante nuestro <a href="contacto.html">formulario de consultas</a>, o directamente a nuestro teléfono fijo: <b>2 22292481</b>, o móvil: <b>+569 92585566</b>, para fijar una reunión.</p>
+						</div>
+				    </div>
+				</div>
+			</div>
+	    </div>
+			
+		<footer>
+			<div class="container-fluid bg-footer">
+			    <h3 class="text-center">"Your Future Is Speaking English"</h3>
+				<br/>
+			    <div class="text-center">
+			        <span class="fa-stack fa-lg">
+				        <i class="fa fa-circle fa-stack-2x"></i>
+				        <i class="fa fa-location-arrow fa-stack-1x" style="color:#272f95"></i>
+				    </span>
+				    Avda. Padre Hurtado Central 580, Las Condes
+				    <br/>
+				    <span class="fa-stack fa-lg">
+					    <i class="fa fa-circle fa-stack-2x"></i>
+						<i class="fa fa-phone fa-stack-1x" style="color:#272f95"></i> 
+				    </span>
+				    Fijo: 2 22292481
+					<br/>
+					<span class="fa-stack fa-lg">
+					    <i class="fa fa-circle fa-stack-2x"></i>
+						<i class="fa fa-mobile fa-stack-1x" style="color:#272f95"></i> 
+				    </span>
+					Celular: +569 92585566
+				    <br/>
+				    <span class="fa-stack fa-lg">
+					    <i class="fa fa-circle fa-stack-2x"></i>
+					    <i class="fa fa-envelope fa-stack-1x" style="color:#272f95"></i>
+				    </span>
+				    mcooper@englishcenter.cl
+			    </div>
+			</div>
+	    </footer>
+			
+	    <a href="javascript:void(0)">
+			<div class="bg-upicon">
+				<span class="fa-stack fa-4x">
+                    <i class="fa fa-square fa-stack-2x" style="color:#ff2c3f;"></i>
+                    <i class="fa fa-angle-double-up fa-stack-1x" style="color:white"></i>
+                </span>
+			</div>
+		</a>
+			
+		<script>
+		    isUpIconDisplayed = false; 
+			
+			$(document).ready(function(){
+			    $(window).scroll(function(){	    
+			        if ($(document).scrollTop() > 50) {
+					    if (isUpIconDisplayed == false) {
+				           $(".bg-upicon").fadeIn();
+						   isUpIconDisplayed = true;
+						}
+				    } else {
+				        $(".bg-upicon").fadeOut();
+						isUpIconDisplayed = false; 
+				    }  		
+			    });	
+			});
+		</script>
+			
+		<script>
+			$(document).ready(function(){
+			    $(".bg-upicon").on('click', function(event){
+				    $('html, body').animate({scrollTop: $(".navbar").offset().top}, 250);
+				});
+			});
+		</script>	
+	</body>
+</html>
